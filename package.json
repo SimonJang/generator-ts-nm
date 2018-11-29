@@ -1,6 +1,6 @@
 {
   "name": "generator-ts-nm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Yeoman generator to create a node module in Typescript",
   "main": "index.js",
   "scripts": {
