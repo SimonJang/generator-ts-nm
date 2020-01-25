@@ -1,8 +1,8 @@
-import path from 'path';
-import test from 'ava';
-import helpers from 'yeoman-test';
-import assert from 'yeoman-assert';
-import pify from 'pify';
+const path = require('path');
+const test = require('ava');
+const helpers = require('yeoman-test');
+const assert = require('yeoman-assert');
+const pify = require('pify');
 
 let generator;
 
