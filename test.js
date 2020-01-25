@@ -26,7 +26,7 @@ test('should generate files', async t => {
 		'.gitattributes',
 		'.gitignore',
 		'.travis.yml',
-		'.npmrc',,
+		'.prettierrc',
 		'package.json',
 		'tsconfig.json',
 		'tslint.json',

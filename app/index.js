@@ -41,10 +41,10 @@ module.exports = class extends Generator {
 				mv('gitattributes', '.gitattributes');
 				mv('gitignore', '.gitignore');
 				mv('travis.yml', '.travis.yml');
-				mv('npmrc', '.npmrc');
 				mv('_package.json', 'package.json');
 				mv('_tsconfig.json', 'tsconfig.json');
 				mv('_tslint.json', 'tslint.json');
+				mv('prettierrc', '.prettierrc');
 			}
 		);
 	}
