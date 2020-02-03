@@ -45,6 +45,7 @@ module.exports = class extends Generator {
 				mv('_tsconfig.json', 'tsconfig.json');
 				mv('_tslint.json', 'tslint.json');
 				mv('prettierrc', '.prettierrc');
+				mv('_readme.md', 'readme.md')
 			}
 		);
 	}

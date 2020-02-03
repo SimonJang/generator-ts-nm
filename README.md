@@ -20,7 +20,7 @@ npm run lint
 # Compile
 
 - Compiles your Typescript code
-- Moves the `.js` files to a `/dist` folder
+- Moves the `.js` files to a `/lib` folder
 
 ```
 npm run build

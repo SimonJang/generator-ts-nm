@@ -31,7 +31,8 @@ test('should generate files', async t => {
 		'tsconfig.json',
 		'tslint.json',
 		'source/index.ts',
-		'source/test/test.ts'
+		'source/test/test.ts',
+		'readme.md'
 	]);
 
 	t.pass();
