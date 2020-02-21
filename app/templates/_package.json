@@ -8,10 +8,10 @@
 		"lint": "tslint -p . --format stylish",
 		"format": "prettier --write \"source/**/*.ts\" \"lib/**/*.js\"",
 		"build": "npm run clean && tsc -p tsconfig.json",
-		"test": "npm run format && npm run lint && nyc ava",
+		"test": "npm audit --audit-level=moderate && npm run format && npm run lint && nyc ava",
 		"clean": "del-cli lib",
-		"prepare": "npm run test && npm run build",
-		"deploy": "npm run prepare && npx np"
+		"buildLib": "npm run test && npm run build",
+		"deploy": "npm run buildLib && npx np"
 	},
 	"engines": {
 		"node": ">=8"
