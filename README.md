@@ -1,4 +1,4 @@
-# ts-nm [![Build Status](https://travis-ci.org/SimonJang/generator-ts-node.svg?branch=master)](https://travis-ci.org/SimonJang/generator-ts-node)
+# ts-nm ![CI](https://github.com/SimonJang/generator-ts-nm/workflows/CI/badge.svg?branch=master)
 
 A `Yeoman` generator to scaffold node module with Typescript
 
