@@ -25,14 +25,19 @@ test('should generate files', async t => {
 		'.editorconfig',
 		'.gitattributes',
 		'.gitignore',
-		'.travis.yml',
 		'.prettierrc',
 		'package.json',
 		'tsconfig.json',
 		'tslint.json',
 		'source/index.ts',
 		'source/test/test.ts',
-		'readme.md'
+		'readme.md',
+		'.github/pull_request_template.md',
+		'.github/workflows/ci.yml',
+		'.github/ISSUE_TEMPLATE/bug.md',
+		'.github/ISSUE_TEMPLATE/feature.md',
+		'.github/ISSUE_TEMPLATE/question.md',
+		'.github/ISSUE_TEMPLATE/regression.md'
 	]);
 
 	t.pass();

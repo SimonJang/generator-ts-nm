@@ -40,12 +40,13 @@ module.exports = class extends Generator {
 				mv('editorconfig', '.editorconfig');
 				mv('gitattributes', '.gitattributes');
 				mv('gitignore', '.gitignore');
-				mv('travis.yml', '.travis.yml');
 				mv('_package.json', 'package.json');
 				mv('_tsconfig.json', 'tsconfig.json');
 				mv('_tslint.json', 'tslint.json');
 				mv('prettierrc', '.prettierrc');
-				mv('_readme.md', 'readme.md')
+				mv('_readme.md', 'readme.md');
+				mv('_license', 'license');
+				mv('github/**/*', '.github');
 			}
 		);
 	}
